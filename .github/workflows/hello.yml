@@ -27,4 +27,4 @@ jobs:
         run: echo "Runner OS is $RUNNER_OS"
 
       - name: Break the pipeline
-        run: exit 1
+        run: echo "Fixed!"
