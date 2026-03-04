@@ -25,3 +25,6 @@ jobs:
 
       - name: Print runner operating system
         run: echo "Runner OS is $RUNNER_OS"
+
+      - name: Break the pipeline
+        run: exit 1
