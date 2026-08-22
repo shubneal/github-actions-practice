@@ -13,3 +13,6 @@ jobs:
     steps:
       - name: Print PR branch
         run: echo "PR check running for branch: ${{ github.head_ref }}"
+
+      - name: Show workflow message
+        run: echo "Pull request workflow is working"
